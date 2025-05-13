@@ -1,0 +1,41 @@
+ [A képernyőn egy férfi és a laptopja látható, a férfi a kamerába néz.]
+<p lang="en">Here's how I prepare for my coding interview.</p>
+ 
+ [A férfi felnyitja a laptopja kijelzőjét és a LeetCode statisztikáit mutatja.]
+<p lang="en">I solve 1,513 leetcode problems. Memorize all of the answers.</p>
+ 
+ [A férfi megmutatja a <p lang="en">Cracking the coding interview</p> c. köjnyvet és az <p lang="en">Elements of programming interviews</p> c. könyvet Python, C++, és Spanyol kiadásban.]
+<p lang="en">Read cracking the coding interview five times. Read elements of programming interviews in all three languages. Python, C++, and Spanish.</p>
+
+[A férfi a kamerába néz. Agresszívan artikulálva beszél.]
+<p lang="en">Mapahash put the matley.</p>
+
+[A monitoron megjelenik a <p lang="en">Grokking the system design interview.</p>]
+<p lang="en">Read Grokking the system design interview. Don't understand shit, but memorize every keyword: sharding, caching, load balancing.</p>
+ 
+[A képernyőn az interviewer LinkedIn, Facebook és Twitter profilja látható.]
+<p lang="en">Go on LinkedIn to stalk my interviewer, check their Facebook, check their Twitter, check their wife.</p>
+
+[A képernyőn egy bikiniben lévő nő jelenik meg.]
+<p lang="en">Hmm. Nice.</p>
+
+[A férfi a bankkártyáját nézi, majd a képernyőjén megjelenek a Kínai weboldal]
+<p lang="en">Pay lots of money to access a sketchy Chinese website to get leaked the interview questions. Perfect.</p>
+
+[A férfi bemegy a mosdóba, majd az orrát törölgetve kijön onnan.] 
+<p lang="en">I go to the bathroom for my breathing exercise. ******* I love meditating.</p>
+
+[A férfit hívja az interviewer, és megnyit a számítógépén sok ablakot.]
+<p lang="en">The company is calling me for an interview. I bring up all my cheatsheets. I'm ready for this.</p>
+
+[A férfi fogadja a hívást. Az interviewer beszél.]
+<p lang="en">Hey, thanks so much for hopping on this call.</p>
+ 
+[A férfi beszél.]
+<p lang="en">You're welcome.</p>
+
+[A képernyőn az interviewer jelenik meg. Az interviewer beszél.]
+<p lang="en">Yeah, okay. So the first question is, what would you do if you had a conflict with your manager?</p>
+
+[A képernyőn a férfi jelenik meg. A férfi izgatott, agresszív hangnemben beszél.]
+<p lang="en">Hash map. I'll use the hash map.</p>

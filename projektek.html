@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="hu">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous" />
+
+        <link rel="stylesheet" href="css/style.css" />
+        <link id="themeStylesheet" rel="stylesheet" href="css/light.css" />
+        <link rel="icon" href="media/favicon.png" />
+
+        <title>Projektek - Daavid.dev</title>
+    </head>
+    <body>
+        <header>
+            <nav id="skiptocontent">
+                <h2>Ugrás a tartalomra</h2>
+                <a href="#tartalom">Ugrás a tartalomra</a>
+            </nav>
+            <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top shadow">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="index.html">Daavid.dev</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link" href="index.html">Kezdőlap</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="projektek.html">Projektek</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="blog.html">Blog</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <button id="themeToggle" class="btn btn-outline-dark ms-auto" aria-label="Téma váltása">
+                        <img id="themeIcon" src="media/light-theme.png" alt="Téma ikon" style="width: 24px; height: 24px;" />
+                    </button>
+                    <button id="contrastToggle" class="btn btn-outline-dark ms-2" aria-label="Kontraszt mód kapcsolása">
+                        <img src="media/contrast.png" alt="Kontraszt ikon" style="width: 24px; height: 24px;" />
+                    </button>
+                </div>
+            </nav>
+        </header>
+
+        <main id="tartalom">
+            <br />
+            <div class="container">
+                <div class="d-md-flex flex-md-row flex-column">
+                    <aside class="mb-4 me-md-4" style="min-width: 250px;">
+                        <div class="card">
+                            <div class="card-header">Szűrő</div>
+                            <div class="card-body">
+                                <form onsubmit="return false;">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" id="weboldal" />
+                                        <label class="form-check-label" for="weboldal">Weboldal</label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" id="mobil" />
+                                        <label class="form-check-label" for="mobil">Mobilos alkalmazás</label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" id="konzol" />
+                                        <label class="form-check-label" for="konzol">Konzolos alkalmazás</label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" id="egyeb" />
+                                        <label class="form-check-label" for="egyeb">Egyéb</label>
+                                    </div>
+                                    <button type="reset" class="btn btn-secondary mt-2 w-100">
+                                        Törlés
+                                    </button>
+                                </form>
+                            </div>
+                        </div>
+                    </aside>
+
+                    <section class="flex-fill">
+                        <h1 class="text-center">Projektjeim</h1>
+                        <div class="row g-4 projects">
+                            <!-- Project 1 -->
+                            <div class="col-12 col-md-6 col-lg-4 projectCard" data-type="Mobilos alkalmazás">
+                                <div class="card h-100">
+                                    <img src="media/calculator.jpeg" class="card-img-top" alt="Számológép Projekt képe" />
+                                    <div class="card-body d-flex flex-column">
+                                        <h5 class="card-title">Számológép</h5>
+                                        <small class="text-muted">Mobilos alkalmazás</small>
+                                        <p class="card-text d-none d-xl-block">
+                                            Egy egyszerű és gyors számológép alkalmazás alapvető és haladó matematikai műveletekhez.
+                                        </p>
+                                        <a href="#" class="btn btn-primary mt-auto">Megnézem</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Project 2 -->
+                            <div class="col-12 col-md-6 col-lg-4 projectCard" data-type="Mobilos alkalmazás">
+                                <div class="card h-100">
+                                    <img src="media/to-do.jpeg" class="card-img-top" alt="To-Do lista Projekt képe" />
+                                    <div class="card-body d-flex flex-column">
+                                        <h5 class="card-title">To-Do lista</h5>
+                                        <small class="text-muted">Mobilos alkalmazás</small>
+                                        <p class="card-text d-none d-xl-block">
+                                            A To Do lista app segít rendszerezni napi teendőidet. Egyszerűen hozzáadhatsz, módosíthatsz és törölhetsz feladatokat, valamint nyomon követheted a haladásodat.
+                                        </p>
+                                        <a href="#" class="btn btn-primary mt-auto">Megnézem</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Project 3 -->
+                            <div class="col-12 col-md-6 col-lg-4 projectCard" data-type="Weboldal">
+                                <div class="card h-100">
+                                    <img src="media/portfolio.jpeg" class="card-img-top" alt="Személyes portfólió Projekt képe" />
+                                    <div class="card-body d-flex flex-column">
+                                        <h5 class="card-title">Személyes portfólió</h5>
+                                        <small class="text-muted">Weboldal</small>
+                                        <p class="card-text d-none d-xl-block">
+                                            Személyes portfólió weboldalam célja, hogy bemutassa munkáimat, készségeimet és elért eredményeimet egy jól strukturált, letisztult felületen.
+                                        </p>
+                                        <a href="#" class="btn btn-primary mt-auto">Megnézem</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Project 4 -->
+                            <div class="col-12 col-md-6 col-lg-4 projectCard" data-type="Weboldal">
+                                <div class="card h-100">
+                                    <img src="media/galeria.jpeg" class="card-img-top" alt="Fotógaléria Projekt képe" />
+                                    <div class="card-body d-flex flex-column">
+                                        <h5 class="card-title">Fotógaléria</h5>
+                                        <small class="text-muted">Weboldal</small>
+                                        <p class="card-text d-none d-xl-block">
+                                            A fotó galéria weboldal célja, hogy bemutassa és rendszerezze a legjobb fényképeidet egy könnyen kezelhető, vizuálisan vonzó felületen.
+                                        </p>
+                                        <a href="#" class="btn btn-primary mt-auto">Megnézem</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Project 5 -->
+                            <div class="col-12 col-md-6 col-lg-4 projectCard" data-type="Weboldal">
+                                <div class="card h-100">
+                                    <img src="https://fakeimg.pl/500x500/" class="card-img-top" alt="Projekt képe" />
+                                    <div class="card-body d-flex flex-column">
+                                        <h5 class="card-title">Projekt 5</h5>
+                                        <small class="text-muted">Weboldal</small>
+                                        <p class="card-text d-none d-xl-block">
+                                            Ez egy rövid leírás az ötödik projektről.
+                                        </p>
+                                        <a href="#" class="btn btn-primary mt-auto">Megnézem</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Project 6 -->
+                            <div class="col-12 col-md-6 col-lg-4 projectCard" data-type="Konzolos alkalmazás">
+                                <div class="card h-100">
+                                    <img src="https://fakeimg.pl/500x500/" class="card-img-top" alt="Projekt képe" />
+                                    <div class="card-body d-flex flex-column">
+                                        <h5 class="card-title">Projekt 6</h5>
+                                        <small class="text-muted">Konzolos alkalmazás</small>
+                                        <p class="card-text d-none d-xl-block">
+                                            Ez egy rövid leírás a hatodik projektről.
+                                        </p>
+                                        <a href="#" class="btn btn-primary mt-auto">Megnézem</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Project 7 -->
+                            <div class="col-12 col-md-6 col-lg-4 projectCard" data-type="Mobilos alkalmazás">
+                                <div class="card h-100">
+                                    <img src="https://fakeimg.pl/500x500/" class="card-img-top" alt="Projekt képe" />
+                                    <div class="card-body d-flex flex-column">
+                                        <h5 class="card-title">Projekt 7</h5>
+                                        <small class="text-muted">Mobilos alkalmazás</small>
+                                        <p class="card-text d-none d-xl-block">
+                                            Ez egy rövid leírás a hetedik projektről.
+                                        </p>
+                                        <a href="#" class="btn btn-primary mt-auto">Megnézem</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Project 8 -->
+                            <div class="col-12 col-md-6 col-lg-4 projectCard" data-type="Egyéb">
+                                <div class="card h-100">
+                                    <img src="https://fakeimg.pl/500x500/" class="card-img-top" alt="Projekt képe" />
+                                    <div class="card-body d-flex flex-column">
+                                        <h5 class="card-title">Projekt 8</h5>
+                                        <small class="text-muted">Egyéb</small>
+                                        <p class="card-text d-none d-xl-block">
+                                            Ez egy rövid leírás a nyolcadik projektről.
+                                        </p>
+                                        <a href="#" class="btn btn-primary mt-auto">Megnézem</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+            <br />
+        </main>
+
+        <footer class="text-center">
+            <div class="row">
+                <div class="col-12">
+                    <address>
+                        <p>
+                            Tóth Dávid <br />
+                            <a href="mailto:ezqdd1@inf.elte.hu">ezqdd1@inf.elte.hu</a>
+                        </p>
+                    </address>
+                </div>
+            </div>
+        </footer>
+        <script>
+            const themeToggle = document.getElementById("themeToggle");
+            const themeIcon = document.getElementById("themeIcon");
+            const themeStylesheet = document.getElementById("themeStylesheet");
+
+            function setTheme(theme) {
+                themeStylesheet.href = `css/${theme}.css`;
+                localStorage.setItem("theme", theme);
+                const contrastIcon = document.querySelector("#contrastToggle img");
+                contrastIcon.src = theme === "dark" ? "media/contrast_dark.png" : "media/contrast.png";
+                themeIcon.src = `media/${theme}-theme.png`;
+            }
+
+            const savedTheme = localStorage.getItem("theme") || "light";
+            setTheme(savedTheme);
+
+            themeToggle.addEventListener("click", () => {
+                const newTheme = themeStylesheet.href.includes("dark") ? "light" : "dark";
+                setTheme(newTheme);
+            });
+
+            const contrastToggle = document.getElementById("contrastToggle");
+            let originalTheme = savedTheme;
+
+            contrastToggle.addEventListener("click", () => {
+                const isHighContrast = document.body.classList.toggle("high-contrast");
+
+                if (isHighContrast) {
+                    originalTheme = themeStylesheet.href.includes("dark") ? "dark" : "light";
+                    if (originalTheme === "light") {
+                        setTheme("dark");
+                    }
+                } else {
+                    setTheme(originalTheme);
+                }
+            });
+
+            const checkboxes = document.querySelectorAll(".form-check-input");
+            const projectCards = document.querySelectorAll(".card.h-100");
+
+            function filterProjects() {
+                const selectedTypes = Array.from(checkboxes)
+                    .filter((cb) => cb.checked)
+                    .map((cb) => cb.nextElementSibling.innerText.trim());
+
+                const cardWrappers = document.querySelectorAll("[data-type]");
+
+                cardWrappers.forEach((wrapper) => {
+                    const type = wrapper.getAttribute("data-type");
+                    if (selectedTypes.length === 0 || selectedTypes.includes(type)) {
+                        wrapper.style.display = "";
+                    } else {
+                        wrapper.style.display = "none";
+                    }
+                });
+            }
+
+            checkboxes.forEach((cb) => cb.addEventListener("change", filterProjects));
+        </script>
+    </body>
+</html>

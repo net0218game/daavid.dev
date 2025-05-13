@@ -1,0 +1,97 @@
+@import url("nyomtatas.css") print;
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+#skiptocontent * {
+    position: relative;
+    left: -9999999px;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+}
+
+#skiptocontent a:focus {
+    position: static;
+    width: auto;
+    height: auto;
+}
+
+#keresztnev, #vezeteknev, #email, #uzenet {
+    width: 100%;
+}
+
+main {
+    padding: 50px;
+}
+
+article p {
+    text-align: justify;
+}
+
+article h2 {
+    padding-bottom: 50px;
+}
+
+a {
+    color: blue;
+    text-decoration: underline;
+}
+
+a:visited {
+    color: darkmagenta;
+}
+
+.blog {
+    background-image: url('../media/favicon.png');
+    background-repeat: repeat;
+    background-attachment: fixed;
+    background-position: top left;
+    background-size: 32px 32px;
+}
+
+.blog-main {
+    background-color: rgba(255, 255, 255, 0.98) !important;
+    margin: auto;
+    width: 90%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Georgia', 'Times New Roman', serif;
+}
+
+.aboutme, .works {
+    text-align: justify;
+}
+
+body.high-contrast * {
+    text-transform: uppercase;
+}
+
+.navbar-brand {
+    font-weight: bolder;
+}
+
+#themeToggle:hover,
+#contrastToggle:hover {
+  background-color: inherit !important;
+  border-color: inherit !important;
+  color: inherit !important;
+  box-shadow: none !important;
+  text-decoration: none !important;
+}
+
+#themeToggle,
+#contrastToggle {
+  transition: none !important;
+}
+
+iframe {
+    width: 100%;
+}

@@ -1,0 +1,48 @@
+.navbar, video, iframe, footer, .banner, .gomb, .rejtett {
+    display: none !important;
+}
+
+a::after {
+    content: " (" attr(href) ")" !important;
+    font-size: smaller !important;
+}
+
+a, a:visited {
+    color: blue !important;
+    text-decoration: underline !important;
+}
+
+img {
+    max-width: 30% !important;
+    height: auto !important;
+}
+
+.card-img-top {
+    max-width: 100% !important;
+}
+
+.projectCard {
+    max-width: 30% !important;
+    margin: 0px !important;
+    page-break-inside: avoid !important;
+    break-inside: avoid !important;
+}
+
+.projects {
+    margin-top: 10px !important;
+    display: flex !important;
+    flex-wrap: wrap !important;
+    justify-content: center !important;
+    gap: 1rem !important;
+}
+
+.tablazat, table, .egybe {
+    page-break-inside: avoid !important;
+    break-inside: avoid !important;
+}
+
+.blogImage {
+    float: left !important;
+    margin-right: 1rem !important;
+    margin-bottom: 1rem !important;
+}
