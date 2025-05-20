@@ -1,392 +1,341 @@
 <!DOCTYPE html>
 <html lang="hu">
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous" />
-        <link rel="icon" href="media/favicon.png" />
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7"
+      crossorigin="anonymous"
+    />
+    <link rel="icon" href="media/favicon.png" />
 
-        <link rel="stylesheet" href="css/style.css" />
-        <link id="themeStylesheet" rel="stylesheet" href="css/light.css" />
-        <title>Kezdőlap - Daavid.dev</title>
-    </head>
-    <body>
-        <header>
-            <nav id="skiptocontent">
-                <h2>Ugrás a tartalomra</h2>
-                <a href="#tartalom" aria-label="Ugrás a tartalomra">Ugrás a tartalomra</a>
-            </nav>
-            <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top shadow">
-                <div class="container-fluid">
-                    <a class="navbar-brand" href="index.html">Daavid.dev</a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                        <ul class="navbar-nav">
-                            <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="index.html">Kezdőlap</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="projektek.html">Projektek</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="blog.html">Blog</a>
-                            </li>
-                        </ul>
-                    </div>
-                    <button id="themeToggle" class="btn btn-outline-dark ms-auto" aria-label="Téma váltása">
-                        <img id="themeIcon" src="media/light-theme.png" alt="Téma ikon" style="width: 24px; height: 24px;" />
-                    </button>
-                    <button id="contrastToggle" class="btn btn-outline-dark ms-2" aria-label="Kontraszt mód kapcsolása">
-                        <img src="media/contrast.png" alt="Kontraszt ikon" style="width: 24px; height: 24px;" />
-                    </button>
-                </div>
-            </nav>
-        </header>
-        <img id="bannerImage" class="img-fluid w-100 banner" src="media/light-banner.jpg" alt="Borítókép" />
-        <main id="tartalom">
-            <h1 class="text-center">Kezdőlap</h1>
-            <h2>Rólam</h2>
-            <p class="aboutme">
-                19 éves vagyok, és az ELTE programtervező informatikus szakán tanulok. Már gyerekkorom óta érdekel a <b>programozás</b> és a technológia világa, így nem volt kérdés, hogy ezen a területen szeretnék továbbtanulni. Különösen
-                érdekel a <b>szoftverfejlesztés</b>, az algoritmusok világa és a <b>mesterséges intelligencia</b>, de nyitott vagyok új technológiák felfedezésére is. Az egyetem mellett igyekszem minél több gyakorlati tapasztalatot
-                szerezni, <b>saját projektek</b>en dolgozom, és szívesen veszek részt <b>csapatmunkában</b> is. Célom, hogy folyamatosan <b>fejlődjek</b> és olyan innovatív megoldásokat hozzak létre, amelyek valódi értéket teremtenek. Ha
-                hasonló érdeklődésű vagy, vagy csak beszélgetnél a programozásról, szívesen ismerkedem!
+    <link rel="stylesheet" href="css/style.css" />
+    <link id="themeStylesheet" rel="stylesheet" href="css/light.css" />
+    <title>Kezdőlap - Daavid.dev</title>
+  </head>
+  <body>
+    <header>
+      <nav id="skiptocontent">
+        <h2>Ugrás a tartalomra</h2>
+        <a href="#tartalom" aria-label="Ugrás a tartalomra"
+          >Ugrás a tartalomra</a
+        >
+      </nav>
+      <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top shadow">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">Daavid.dev</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html"
+                  >Kezdőlap</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="projektek.html">Projektek</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="blog.html">Blog</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="cv.html">Önéletrajz</a>
+              </li>
+            </ul>
+          </div>
+          <button
+            id="themeToggle"
+            class="btn btn-outline-dark ms-auto"
+            aria-label="Téma váltása"
+          >
+            <img
+              id="themeIcon"
+              src="media/light-theme.png"
+              alt="Téma ikon"
+              style="width: 24px; height: 24px"
+            />
+          </button>
+          <button
+            id="contrastToggle"
+            class="btn btn-outline-dark ms-2"
+            aria-label="Kontraszt mód kapcsolása"
+          >
+            <img
+              src="media/contrast.png"
+              alt="Kontraszt ikon"
+              style="width: 24px; height: 24px"
+            />
+          </button>
+        </div>
+      </nav>
+    </header>
+    <img
+      id="bannerImage"
+      class="img-fluid w-100 banner"
+      src="media/light-banner.jpg"
+      alt="Borítókép"
+    />
+    <main id="tartalom">
+      <h1 class="text-center">Kezdőlap</h1>
+      <h2>Rólam</h2>
+      <p class="aboutme">
+        A nevem <b>Dávid</b>, és jelenleg Programtervező Informatikusnak tanulok
+        az ELTE Informatikai karán. Elsősorban magánszemélyeknek és
+        kisvállalkozóknak segítek abban, hogy online jelenlétük professzionális
+        és meggyőző legyen. Jelenleg portfólióm bővítése és tapasztalataim
+        mélyítése érdekében vállalok weboldalkészítési megbízásokat kedvező
+        feltételekkel. Célom, hogy minden ügyfél egy személyre szabott,
+        átlátható és könnyen kezelhető honlapot kapjon – akár bemutatkozó
+        oldalt, blogot vagy egyszerű üzleti weboldalt keres. A közös munka során
+        figyelek az egyedi igényekre, és a technikai megvalósításon túl szívesen
+        segítek a tartalomstruktúra kialakításában és a keresőoptimalizálási
+        szempontok érvényesítésében is. Ha most indítod vállalkozásodat, vagy
+        régi weboldalad megújításán gondolkodsz, keress bizalommal!
+      </p>
+      <a href="cv.html" class="btn btn-primary rejtett">Önéletrajz</a>
+      <br />
+      <br />
+      <h2>Munkáim</h2>
+      <p class="works">
+        Elsősorban magánszemélyeknek és kisvállalkozásoknak készítek modern
+        technológiákra épülő weboldalakat, amelyek nemcsak esztétikusak és
+        gyorsak, hanem megfelelnek a legfontosabb webes irányelveknek is.
+        Szeretném elérni, hogy a magánszemélyek és kisvállalkozók is olyan
+        szintű szolgáltatáshoz jussanak, amely versenyképessé teszi őket a
+        nagyvállalatokkal szemben, ezáltal erősítve digitális jelenlétüket.
+        Különös figyelmet fordítok az oldalak elkészítése közben olyan elvekre,
+        mint a
+      </p>
+
+      <ul>
+        <li>Megrendelői igények,</li>
+
+        <li>Reszponzivitás,</li>
+
+        <li>Akadálymentesség,</li>
+
+        <li>Felhasználói élmény maximalizálása,</li>
+
+        <li>SEO (Keresőoptimalizáció)</li>
+      </ul>
+      <p>
+        olyan területek ezek, melyeket még a nagy cégek is gyakran
+        elhanyagolnak. Célom, hogy ügyfeleim olyan weboldalt kapjanak, amely
+        nemcsak jól mutat, de technikailag is kifogástalan, könnyen kezelhető és
+        valóban támogatja az online jelenlétüket.
+      </p>
+      <br class="rejtett" />
+
+      <div class="d-flex justify-content-center">
+        <a href="projektek.html" class="btn btn-primary rejtett"
+          >Ugrás a Portfóliómra</a
+        >
+      </div>
+      <br class="rejtett" />
+      <h2>Kapcsolat</h2>
+      <form
+        action="mailto:david@daavid.dev"
+        method="post"
+        enctype="text/plain"
+        class="container-fluid"
+        id="form"
+      >
+        <div class="col-12 col-md-6 mx-auto bg-light p-3">
+          <div class="row">
+            <div class="col-12 col-md-6 mb-3">
+              <div class="mb-3">
+                <label for="vezeteknev" class="form-label">Vezetéknév:</label>
+                <input
+                  type="text"
+                  id="vezeteknev"
+                  class="form-control"
+                  placeholder="Pl. Kovács"
+                  required
+                  maxlength="50"
+                />
+              </div>
+            </div>
+            <div class="col-12 col-md-6 mb-3">
+              <div class="mb-3">
+                <label for="keresztnev" class="form-label">Keresztnév:</label>
+                <input
+                  type="text"
+                  id="keresztnev"
+                  class="form-control"
+                  placeholder="Pl. Dávid"
+                  required
+                  maxlength="50"
+                />
+              </div>
+            </div>
+          </div>
+          <div class="mb-3">
+            <label for="email" class="form-label">E-mail cím:</label>
+            <input
+              type="email"
+              id="email"
+              class="form-control"
+              placeholder="Pl. pelda@email.hu"
+              required
+              maxlength="100"
+            />
+          </div>
+          <fieldset class="mb-3">
+            <p class="form-label">Miért lépsz velem kapcsolatba?</p>
+            <div class="form-check">
+              <input
+                class="form-check-input"
+                type="radio"
+                name="tipus"
+                id="v1"
+                value="Megrendelő vagyok"
+                required
+              />
+              <label class="form-check-label" for="v1">Megrendelő vagyok</label>
+            </div>
+            <div class="form-check">
+              <input
+                class="form-check-input"
+                type="radio"
+                name="tipus"
+                id="v2"
+                value="Édeklödö vagyok"
+                required
+              />
+              <label class="form-check-label" for="v2">Édeklődő vagyok</label>
+            </div>
+            <div class="form-check">
+              <input
+                class="form-check-input"
+                type="radio"
+                name="tipus"
+                id="v3"
+                value="Allásajánlat"
+                required
+              />
+              <label class="form-check-label" for="v3">Allásajánlat</label>
+            </div>
+            <div class="form-check">
+              <input
+                class="form-check-input"
+                type="radio"
+                checked
+                name="tipus"
+                id="v4"
+                value="Kérdésem van"
+                required
+              />
+              <label class="form-check-label" for="v4">Kérdésem van</label>
+            </div>
+          </fieldset>
+          <div class="mb-3">
+            <label for="uzenet" class="form-label">Üzenet:</label>
+            <textarea
+              id="uzenet"
+              name="Üzenet"
+              rows="4"
+              class="form-control"
+              placeholder="Írd ide az üzeneted..."
+              maxlength="500"
+              required
+            ></textarea>
+          </div>
+          <div class="form-check">
+            <input
+              class="form-check-input"
+              required
+              type="checkbox"
+              id="elfogad"
+            />
+            <label class="form-check-label" for="elfogad"
+              >Elfogadom az adatkezelési nyilatkozatot</label
+            >
+          </div>
+          <div class="d-flex justify-content-end">
+            <button type="submit" class="btn btn-primary">Küld</button>
+          </div>
+        </div>
+      </form>
+    </main>
+    <br />
+
+    <footer class="text-center">
+      <div class="row">
+        <div class="col-12">
+          <address>
+            <p>
+              Tóth Dávid <br />
+              <a href="mailto:david@daavid.dev">david@daavid.dev</a>
             </p>
-            <h2>Önéletrajz</h2>
+          </address>
+        </div>
+      </div>
+    </footer>
+    <script>
+      const themeToggle = document.getElementById("themeToggle");
+      const themeIcon = document.getElementById("themeIcon");
+      const themeStylesheet = document.getElementById("themeStylesheet");
+      const bannerImage = document.getElementById("bannerImage");
 
-            <div class="row">
-                <div class="col-12 col-md-4 col-lg-3">
-                    <img class="img-fluid" src="media/me.png" alt="Kép rólam" />
-                    <br />
-                    <br />
-                    <h3>Személyes adatok:</h3>
-                    <b>Név:</b> Tóth Dávid <br />
-                    <b>Születési Dátum: </b><time datetime="2006-02-18">2006.02.18</time><br />
-                    <b>Elérhetőség:</b>
-                    <a href="mailto:ezqdd1@inf.elte.hu">ezqdd1@inf.elte.hu</a> <br />
-                    <b>Telefonszám:</b> <a href="tel:+36123456789">+36 12 345 6789</a>
-                    <br />
-                    <b>Cím:</b>
-                    <a href="https://www.google.com/maps/search/?q=Budapest,Fő-utca-1" target="_blank">Budapest, Fő utca 1</a>
-                    <br />
-                    <div class="d-flex justify-content-center">
-                        <iframe
-                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2695.533565047429!2d19.03787867638696!3d47.49899927118023!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4741dc3da8582ae9%3A0xb5a040b0dcc9d6d8!2sBudapest%2C%20F%C5%91%20u.%201%2C%201011!5e0!3m2!1sen!2hu!4v1747062004821!5m2!1sen!2hu"
-                            allowfullscreen=""
-                            loading="lazy"
-                            referrerpolicy="no-referrer-when-downgrade"
-                        ></iframe>
-                    </div>
-                </div>
-                <div class="col-12 col-md-8 col-lg-9 egybe">
-                    <br class="rejtett" />
-                    <h3>Tanulmányok</h3>
-                    <div class="d-none d-md-block">
-                        <div class="container">
-                            <table class="table table-bordered text-center">
-                                <thead>
-                                    <tr>
-                                        <th>Képzés</th>
-                                        <th>Intézmény</th>
-                                        <th>Év</th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    <tr>
-                                        <td>Általános Iskola</td>
-                                        <td>Kaposvári Kisfaludy Utcai Tagiskola</td>
-                                        <td>2012-2020</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Gimnázium</td>
-                                        <td>
-                                            <a href="https://tancsics.hu/">Kaposvári Táncsics Mihály Gimnázium - Informatika Szak</a>
-                                        </td>
-                                        <td>2020-2024</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Programtervező Informatikus Bsc</td>
-                                        <td>
-                                            <a href="https://www.inf.elte.hu/">Eötvös Loránd Tudományegyetem Informatikai Kar</a>
-                                        </td>
-                                        <td>2024-</td>
-                                    </tr>
-                                </tbody>
-                            </table>
-                                <details>
-                                    <summary>Tanulmányok</summary>
-                                    <p>
-                                        Ez a táblázat az iskolai tanulmányaim főbb állomásait, az intézmények nevét és az évek időtartamát tartalmazza. A táblázat három különböző iskolai képzést tartalmaz: az általános iskolát, a
-                                        gimnáziumot (informatika szakirány), valamint az Eötvös Loránd Tudományegyetemen folyó programtervező informatikus Bsc képzést. Minden képzéshez tartozik az intézmény neve és az annak megfelelő évek
-                                        időtartama.
-                                    </p>
-                                </details>
-                        </div>
-                    </div>
-                    <div class="d-block d-md-none">
-                        <div class="container tablazat">
-                            <div class="row text-center fw-bold border-bottom py-2 d-none d-md-flex">
-                                <div class="col">Képzés</div>
-                                <div class="col">Intézmény</div>
-                                <div class="col">Év</div>
-                            </div>
-                            <div class="row border-bottom py-2">
-                                <div class="col-12 col-md">
-                                    <strong>Képzés:</strong><br />
-                                    Általános Iskola
-                                </div>
-                                <div class="col-12 col-md">
-                                    <strong>Intézmény:</strong><br />
-                                    Kaposvári Kisfaludy Utcai Tagiskola
-                                </div>
-                                <div class="col-12 col-md">
-                                    <strong>Év:</strong><br />
-                                    2012-2020
-                                </div>
-                            </div>
-                            <div class="row border-bottom py-2">
-                                <div class="col-12 col-md">
-                                    <strong>Képzés:</strong><br />
-                                    Informatika Szak
-                                </div>
-                                <div class="col-12 col-md">
-                                    <strong>Intézmény:</strong><br />
-                                    Kaposvári Táncsics Mihály Gimnázium
-                                </div>
-                                <div class="col-12 col-md">
-                                    <strong>Év:</strong><br />
-                                    2020-2024
-                                </div>
-                            </div>
-                            <div class="row border-bottom py-2">
-                                <div class="col-12 col-md">
-                                    <strong>Képzés:</strong><br />
-                                    Programtervező Informatikus Bsc
-                                </div>
-                                <div class="col-12 col-md">
-                                    <strong>Intézmény:</strong><br />
-                                    Eötvös Loránd Tudományegyetem
-                                </div>
-                                <div class="col-12 col-md">
-                                    <strong>Év:</strong><br />
-                                    2024-
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <br />
-                    <h3>Készségek:</h3>
-                    <ul>
-                        <li>Programozási nyelvek: <i>Python, Java, C, C#, Haskell</i></li>
-                        <li>Mobil fejlesztés: <i>Flutter, Swift</i></li>
-                        <li>Webfejlesztés: <i>HTML, CSS, Bootstrap, JavaScript</i></li>
-                        <li>Adatszerkezetek és algoritmusok</li>
-                        <li>Adatbázis-kezelés: <i>MySQL, MongoDB</i></li>
-                        <li>Verziókezelés: <i>Git</i></li>
-                    </ul>
-                    <h3>Nyelvek:</h3>
-                    <ul>
-                        <li>Magyar – anyanyelv</li>
-                        <li>Angol – felsőfokú C1</li>
-                    </ul>
-                    <h3>Egyéb:</h3>
-                    <ul>
-                        <li>Önálló és csapatmunkában is hatékony</li>
-                        <li>Gyorsan tanul új technológiákat</li>
-                        <li>Nyitott az innovációra és a kihívásokra</li>
-                    </ul>
-                </div>
-            </div>
-            <br />
-            <h2>Munkáim</h2>
-            <p class="works">
-                Szabadúszó fejlesztőként <b>weboldalakat</b> és <b>mobilalkalmazásokat</b> készítek egyedi igényekre szabva. Modern, reszponzív megoldásokat kínálok vállalkozásoknak és magánszemélyeknek egyaránt – a tervezéstől a
-                megvalósításig. Célom, hogy minden projekt letisztult, gyors és felhasználóbarát legyen.
-            </p>
-            <div class="d-flex justify-content-center">
-                <video class="img-fluid" src="media/video.mp4" poster="media/poster.png" controls></video>
-            </div>
-            <div class="d-flex justify-content-center">
-                <details class="mt- rejtett">
-                    <summary>Átirat</summary>
-                    [A képernyőn egy férfi és a laptopja látható, a férfi a kamerába néz.]
-                    <p lang="en">Here's how I prepare for my coding interview.</p>
+      function updateBanner(theme) {
+        bannerImage.src =
+          theme === "dark" ? "media/banner.jpg" : "media/light-banner.jpg";
+      }
 
-                    [A férfi felnyitja a laptopja kijelzőjét és a LeetCode statisztikáit mutatja.]
-                    <p lang="en">
-                        I solve 1,513 leetcode problems. Memorize all of the answers.
-                    </p>
+      function setTheme(theme) {
+        themeStylesheet.href = `css/${theme}.css`;
+        localStorage.setItem("theme", theme);
+        themeIcon.src = `media/${theme}-theme.png`;
+        const contrastIcon = document.querySelector("#contrastToggle img");
+        contrastIcon.src =
+          theme === "dark" ? "media/contrast_dark.png" : "media/contrast.png";
+        updateBanner(theme);
+      }
 
-                    [A férfi megmutatja a Cracking the coding interview c. köjnyvet és az Elements of programming interviews c. könyvet Python, C++, és Spanyol kiadásban.]
-                    <p lang="en">
-                        Read cracking the coding interview five times. Read elements of programming interviews in all three languages. Python, C++, and Spanish.
-                    </p>
+      const savedTheme = localStorage.getItem("theme") || "light";
+      setTheme(savedTheme);
 
-                    [A férfi a kamerába néz. Agresszívan artikulálva beszél.]
-                    <p lang="en">Mapahash put the matley.</p>
+      themeToggle.addEventListener("click", () => {
+        const newTheme = themeStylesheet.href.includes("dark")
+          ? "light"
+          : "dark";
+        setTheme(newTheme);
+      });
 
-                    [A monitoron megjelenik a Grokking the system design interview.]
-                    <p lang="en">
-                        Read Grokking the system design interview. Don't understand shit, but memorize every keyword: sharding, caching, load balancing.
-                    </p>
+      const contrastToggle = document.getElementById("contrastToggle");
+      let originalTheme = savedTheme;
 
-                    [A képernyőn az interviewer LinkedIn, Facebook és Twitter profilja látható.]
-                    <p lang="en">
-                        Go on LinkedIn to stalk my interviewer, check their Facebook, check their Twitter, check their wife.
-                    </p>
+      contrastToggle.addEventListener("click", () => {
+        const isHighContrast = document.body.classList.toggle("high-contrast");
 
-                    [A képernyőn egy bikiniben lévő nő jelenik meg.]
-                    <p lang="en">Hmm. Nice.</p>
-
-                    [A férfi a bankkártyáját nézi, majd a képernyőjén megjelenek a Kínai weboldal]
-                    <p lang="en">
-                        Pay lots of money to access a sketchy Chinese website to get leaked the interview questions. Perfect.
-                    </p>
-
-                    [A férfi bemegy a mosdóba, majd az orrát törölgetve kijön onnan.]
-                    <p lang="en">
-                        I go to the bathroom for my breathing exercise. ******* I love meditating.
-                    </p>
-
-                    [A férfit hívja az interviewer, és megnyit a számítógépén sok ablakot.]
-                    <p lang="en">
-                        The company is calling me for an interview. I bring up all my cheatsheets. I'm ready for this.
-                    </p>
-
-                    [A férfi fogadja a hívást. Az interviewer beszél.]
-                    <p lang="en">Hey, thanks so much for hopping on this call.</p>
-
-                    [A férfi beszél.]
-                    <p lang="en">You're welcome.</p>
-
-                    [A képernyőn az interviewer jelenik meg. Az interviewer beszél.]
-                    <p lang="en">
-                        Yeah, okay. So the first question is, what would you do if you had a conflict with your manager?
-                    </p>
-
-                    [A képernyőn a férfi jelenik meg. A férfi izgatott, agresszív hangnemben beszél.]
-                    <p lang="en">Hash map. I'll use the hash map.</p>
-                </details>
-            </div>
-            <br class="rejtett" />
-
-            <div class="d-flex justify-content-center">
-                <a href="projektek.html" class="btn btn-primary rejtett">Ugrás a Projektekre</a>
-            </div>
-            <br class="rejtett" />
-            <h2>Kapcsolat</h2>
-            <form action="mailto:ezqdd1@inf.elte.hu" method="post" enctype="text/plain" class="container-fluid" id="form">
-                <div class="col-12 col-md-6 mx-auto bg-light p-3">
-                    <div class="row">
-                        <div class="col-12 col-md-6 mb-3">
-                            <div class="mb-3">
-                                <label for="vezeteknev" class="form-label">Vezetéknév:</label>
-                                <input type="text" id="vezeteknev" class="form-control" placeholder="Pl. Kovács" required maxlength="50" />
-                            </div>
-                        </div>
-                        <div class="col-12 col-md-6 mb-3">
-                            <div class="mb-3">
-                                <label for="keresztnev" class="form-label">Keresztnév:</label>
-                                <input type="text" id="keresztnev" class="form-control" placeholder="Pl. Dávid" required maxlength="50" />
-                            </div>
-                        </div>
-                    </div>
-                    <div class="mb-3">
-                        <label for="email" class="form-label">E-mail cím:</label>
-                        <input type="email" id="email" class="form-control" placeholder="Pl. pelda@email.hu" required maxlength="100" />
-                    </div>
-                    <fieldset class="mb-3">
-                        <p class="form-label">Miért lépsz velem kapcsolatba?</p>
-                        <div class="form-check">
-                            <input class="form-check-input" type="radio" name="tipus" id="v1" value="Megrendelő vagyok" required />
-                            <label class="form-check-label" for="v1">Megrendelő vagyok</label>
-                        </div>
-                        <div class="form-check">
-                            <input class="form-check-input" type="radio" name="tipus" id="v2" value="Édeklödö vagyok" required />
-                            <label class="form-check-label" for="v2">Édeklődő vagyok</label>
-                        </div>
-                        <div class="form-check">
-                            <input class="form-check-input" type="radio" name="tipus" id="v3" value="Allásajánlat" required />
-                            <label class="form-check-label" for="v3">Allásajánlat</label>
-                        </div>
-                        <div class="form-check">
-                            <input class="form-check-input" type="radio" checked name="tipus" id="v4" value="Kérdésem van" required />
-                            <label class="form-check-label" for="v4">Kérdésem van</label>
-                        </div>
-                    </fieldset>
-                    <div class="mb-3">
-                        <label for="uzenet" class="form-label">Üzenet:</label>
-                        <textarea id="uzenet" name="Üzenet" rows="4" class="form-control" placeholder="Írd ide az üzeneted..." maxlength="500" required></textarea>
-                    </div>
-                    <div class="form-check">
-                        <input class="form-check-input" required type="checkbox" id="elfogad" />
-                        <label class="form-check-label" for="elfogad">Elfogadom az adatkezelési nyilatkozatot</label>
-                    </div>
-                    <div class="d-flex justify-content-end">
-                        <button type="submit" class="btn btn-primary">Küld</button>
-                    </div>
-                </div>
-            </form>
-        </main>
-        <br />
-
-        <footer class="text-center">
-            <div class="row">
-                <div class="col-12">
-                    <address>
-                        <p>
-                            Tóth Dávid <br />
-                            <a href="mailto:ezqdd1@inf.elte.hu">ezqdd1@inf.elte.hu</a>
-                        </p>
-                    </address>
-                </div>
-            </div>
-        </footer>
-        <script>
-            const themeToggle = document.getElementById("themeToggle");
-            const themeIcon = document.getElementById("themeIcon");
-            const themeStylesheet = document.getElementById("themeStylesheet");
-            const bannerImage = document.getElementById("bannerImage");
-
-            function updateBanner(theme) {
-                bannerImage.src = theme === "dark" ? "media/banner.jpg" : "media/light-banner.jpg";
-            }
-
-            function setTheme(theme) {
-                themeStylesheet.href = `css/${theme}.css`;
-                localStorage.setItem("theme", theme);
-                themeIcon.src = `media/${theme}-theme.png`;
-                const contrastIcon = document.querySelector("#contrastToggle img");
-                contrastIcon.src = theme === "dark" ? "media/contrast_dark.png" : "media/contrast.png";
-                updateBanner(theme);
-            }
-
-            const savedTheme = localStorage.getItem("theme") || "light";
-            setTheme(savedTheme);
-
-            themeToggle.addEventListener("click", () => {
-                const newTheme = themeStylesheet.href.includes("dark") ? "light" : "dark";
-                setTheme(newTheme);
-            });
-
-            const contrastToggle = document.getElementById("contrastToggle");
-            let originalTheme = savedTheme;
-
-            contrastToggle.addEventListener("click", () => {
-                const isHighContrast = document.body.classList.toggle("high-contrast");
-
-                if (isHighContrast) {
-                    originalTheme = themeStylesheet.href.includes("dark") ? "dark" : "light";
-                    if (originalTheme === "light") {
-                        setTheme("dark");
-                    }
-                } else {
-                    setTheme(originalTheme);
-                }
-            });
-        </script>
-    </body>
+        if (isHighContrast) {
+          originalTheme = themeStylesheet.href.includes("dark")
+            ? "dark"
+            : "light";
+          if (originalTheme === "light") {
+            setTheme("dark");
+          }
+        } else {
+          setTheme(originalTheme);
+        }
+      });
+    </script>
+  </body>
 </html>

@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="hu">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous" />
+        <link rel="icon" href="media/favicon.png" />
+
+        <link rel="stylesheet" href="css/style.css" />
+        <link id="themeStylesheet" rel="stylesheet" href="css/light.css" />
+        <title>Önéletrajz - Daavid.dev</title>
+    </head>
+    <body>
+        <header>
+            <nav id="skiptocontent">
+                <h2>Ugrás a tartalomra</h2>
+                <a href="#tartalom" aria-label="Ugrás a tartalomra">Ugrás a tartalomra</a>
+            </nav>
+            <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top shadow">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="index.html">Daavid.dev</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link" href="index.html">Kezdőlap</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="projektek.html">Projektek</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="blog.html">Blog</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="cv.html">Önéletrajz</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <button id="themeToggle" class="btn btn-outline-dark ms-auto" aria-label="Téma váltása">
+                        <img id="themeIcon" src="media/light-theme.png" alt="Téma ikon" style="width: 24px; height: 24px;" />
+                    </button>
+                    <button id="contrastToggle" class="btn btn-outline-dark ms-2" aria-label="Kontraszt mód kapcsolása">
+                        <img src="media/contrast.png" alt="Kontraszt ikon" style="width: 24px; height: 24px;" />
+                    </button>
+                </div>
+            </nav>
+        </header>
+        <main id="tartalom">
+            <h1 class="text-center">Önéletrajz</h1>
+        
+            <div class="row">
+                <div class="col-12 col-md-4 col-lg-3">
+                    <img class="img-fluid" src="media/me.png" alt="Kép rólam" />
+                    <br />
+                    <br />
+                    <h3>Személyes adatok:</h3>
+                    <b>Név:</b> Tóth Dávid <br />
+                    <b>Születési Dátum: </b><time datetime="2006-02-18">2006.02.18</time><br />
+                    <b>Elérhetőség:</b>
+                    <a href="mailto:david@daavid.dev">david@daavid.dev</a> <br />
+                    <b>Telefonszám:</b> <a href="tel:+36 70 608 4996">+36 70 608 4996</a>
+                    <br />
+                    <b>Cím:</b>
+                    <a href="https://www.google.com/maps/search/?q=Budapest" target="_blank">Budapest, Hungary</a>
+                    <br />
+                    <div class="d-flex justify-content-center">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d172572.96742197574!2d18.96549823430668!3d47.48109538351505!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4741c334d1d4cfc9%3A0x400c4290c1e1160!2sBudapest!5e0!3m2!1sen!2shu!4v1747745643052!5m2!1sen!2shu"
+                            allowfullscreen=""
+                            loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"
+                        ></iframe>
+                    </div>
+                </div>
+                <div class="col-12 col-md-8 col-lg-9 egybe">
+                    <br class="rejtett" />
+                    <h3>Tanulmányok</h3>
+                    <div class="d-none d-md-block">
+                        <div class="container">
+                            <table class="table table-bordered text-center">
+                                <thead>
+                                    <tr>
+                                        <th>Képzés</th>
+                                        <th>Intézmény</th>
+                                        <th>Év</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>Általános Iskola</td>
+                                        <td>Kaposvári Kisfaludy Utcai Tagiskola</td>
+                                        <td>2012-2020</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Gimnázium</td>
+                                        <td>
+                                            <a href="https://tancsics.hu/">Kaposvári Táncsics Mihály Gimnázium - Informatika Szak</a>
+                                        </td>
+                                        <td>2020-2024</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Programtervező Informatikus Bsc</td>
+                                        <td>
+                                            <a href="https://www.inf.elte.hu/">Eötvös Loránd Tudományegyetem Informatikai Kar</a>
+                                        </td>
+                                        <td>2024-</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                                <details>
+                                    <summary>Tanulmányok</summary>
+                                    <p>
+                                        Ez a táblázat az iskolai tanulmányaim főbb állomásait, az intézmények nevét és az évek időtartamát tartalmazza. A táblázat három különböző iskolai képzést tartalmaz: az általános iskolát, a
+                                        gimnáziumot (informatika szakirány), valamint az Eötvös Loránd Tudományegyetemen folyó programtervező informatikus Bsc képzést. Minden képzéshez tartozik az intézmény neve és az annak megfelelő évek
+                                        időtartama.
+                                    </p>
+                                </details>
+                        </div>
+                    </div>
+                    <div class="d-block d-md-none">
+                        <div class="container tablazat">
+                            <div class="row text-center fw-bold border-bottom py-2 d-none d-md-flex">
+                                <div class="col">Képzés</div>
+                                <div class="col">Intézmény</div>
+                                <div class="col">Év</div>
+                            </div>
+                            <div class="row border-bottom py-2">
+                                <div class="col-12 col-md">
+                                    <strong>Képzés:</strong><br />
+                                    Általános Iskola
+                                </div>
+                                <div class="col-12 col-md">
+                                    <strong>Intézmény:</strong><br />
+                                    Kaposvári Kisfaludy Utcai Tagiskola
+                                </div>
+                                <div class="col-12 col-md">
+                                    <strong>Év:</strong><br />
+                                    2012-2020
+                                </div>
+                            </div>
+                            <div class="row border-bottom py-2">
+                                <div class="col-12 col-md">
+                                    <strong>Képzés:</strong><br />
+                                    Informatika Szak
+                                </div>
+                                <div class="col-12 col-md">
+                                    <strong>Intézmény:</strong><br />
+                                    Kaposvári Táncsics Mihály Gimnázium
+                                </div>
+                                <div class="col-12 col-md">
+                                    <strong>Év:</strong><br />
+                                    2020-2024
+                                </div>
+                            </div>
+                            <div class="row border-bottom py-2">
+                                <div class="col-12 col-md">
+                                    <strong>Képzés:</strong><br />
+                                    Programtervező Informatikus Bsc
+                                </div>
+                                <div class="col-12 col-md">
+                                    <strong>Intézmény:</strong><br />
+                                    Eötvös Loránd Tudományegyetem
+                                </div>
+                                <div class="col-12 col-md">
+                                    <strong>Év:</strong><br />
+                                    2024-
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <br />
+                    <h3>Készségek:</h3>
+                    <ul>
+                        <li>Programozási nyelvek: <i>Python, Java, C, C#, Haskell</i></li>
+                        <li>Mobil fejlesztés: <i>Flutter, Swift</i></li>
+                        <li>Webfejlesztés: <i>HTML, CSS, Bootstrap, JavaScript</i></li>
+                        <li>Adatszerkezetek és algoritmusok</li>
+                        <li>Adatbázis-kezelés: <i>MySQL, MongoDB</i></li>
+                        <li>Verziókezelés: <i>Git</i></li>
+                    </ul>
+                    <h3>Nyelvek:</h3>
+                    <ul>
+                        <li>Magyar – anyanyelv</li>
+                        <li>Angol – felsőfokú C1</li>
+                    </ul>
+                    <h3>Egyéb:</h3>
+                    <ul>
+                        <li>Önálló és csapatmunkában is hatékonyan dolgozom</li>
+                        <li>Gyorsan tanulokok új technológiákat</li>
+                        <li>Nyitott vagyok az innovációra és a kihívásokra</li>
+                    </ul>
+                </div>
+            </div>
+            <br>
+            <div class="d-flex justify-content-center">
+                <a href="javascript:if(window.print)window.print()" class="btn btn-primary rejtett">Nyomtatás</a>
+            </div>
+        </main>
+        <footer class="text-center">
+            <div class="row">
+                <div class="col-12">
+                    <address>
+                        <p>
+                            Tóth Dávid <br />
+                            <a href="mailto:david@daavid.dev">david@daavid.dev</a>
+                        </p>
+                    </address>
+                </div>
+            </div>
+        </footer>
+        <script>
+            const themeToggle = document.getElementById("themeToggle");
+            const themeIcon = document.getElementById("themeIcon");
+            const themeStylesheet = document.getElementById("themeStylesheet");
+            const bannerImage = document.getElementById("bannerImage");
+
+            function updateBanner(theme) {
+                bannerImage.src = theme === "dark" ? "media/banner.jpg" : "media/light-banner.jpg";
+            }
+
+            function setTheme(theme) {
+                themeStylesheet.href = `css/${theme}.css`;
+                localStorage.setItem("theme", theme);
+                themeIcon.src = `media/${theme}-theme.png`;
+                const contrastIcon = document.querySelector("#contrastToggle img");
+                contrastIcon.src = theme === "dark" ? "media/contrast_dark.png" : "media/contrast.png";
+                updateBanner(theme);
+            }
+
+            const savedTheme = localStorage.getItem("theme") || "light";
+            setTheme(savedTheme);
+
+            themeToggle.addEventListener("click", () => {
+                const newTheme = themeStylesheet.href.includes("dark") ? "light" : "dark";
+                setTheme(newTheme);
+            });
+
+            const contrastToggle = document.getElementById("contrastToggle");
+            let originalTheme = savedTheme;
+
+            contrastToggle.addEventListener("click", () => {
+                const isHighContrast = document.body.classList.toggle("high-contrast");
+
+                if (isHighContrast) {
+                    originalTheme = themeStylesheet.href.includes("dark") ? "dark" : "light";
+                    if (originalTheme === "light") {
+                        setTheme("dark");
+                    }
+                } else {
+                    setTheme(originalTheme);
+                }
+            });
+        </script>
+    </body>
+</html>
